@@ -12,3 +12,8 @@ def remove_duplicates(s):
             result += char
     return result
 
+# Example usage:
+text = "level"
+print("Is palindrome:", is_palindrome(text))
+print("Vowel count:", count_vowels(text))
+print("Without duplicates:", remove_duplicates(text))
